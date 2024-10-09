@@ -23,8 +23,9 @@ public class ArrayDiEx1 {
         for (int i = 0; i < 4; i++) {
             int total = 0;
             for (int j = 0; j < 3; j++) {
-
+                total += scores[i][j];
             }
+            average = total / 3.0;
             System.out.println((i + 1) + "번 학생의 총점: " + sum + ", 평균: " + average );
         }
 
