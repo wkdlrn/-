@@ -19,7 +19,7 @@ public class ArrayDiEx1 {
                 sum += scores[i][j];
             }
         }
-        average = (double) sum / 3;
+
         for (int i = 0; i < 4; i++) {
             int total = 0;
             for (int j = 0; j < 3; j++) {
