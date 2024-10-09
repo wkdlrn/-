@@ -19,11 +19,11 @@ public class ArrayDiEx1 {
                 sum += scores[i][j];
             }
         }
-        average = (double) sum / 3;
+
         for (int i = 0; i < 4; i++) {
             int total = 0;
             for (int j = 0; j < 3; j++) {
-                total +=
+
             }
             System.out.println((i + 1) + "번 학생의 총점: " + sum + ", 평균: " + average );
         }
