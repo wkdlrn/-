@@ -14,8 +14,7 @@ public class MethodEx3 {
             System.out.println(withdrawAmount + "원을 출금하였습니다. 현재 잔액: " +
                     balance + "원");
         } else {
-            System.out.println(withdrawAmount + "원을 출금하려 했으나 잔액이 부족합니
-                    다.");
+            System.out.println(withdrawAmount + "원을 출금하려 했으나 잔액이 부족합니다.");
         }
         System.out.println("최종 잔액: " + balance + "원");
     }
